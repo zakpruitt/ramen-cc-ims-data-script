@@ -96,7 +96,7 @@ def transform_card(card, series_mapping) -> dict:
         "handleId": card.id,
         "name": f"{card.name} #{card.localId}",
         "productImageUrl": image_url,
-        "collection": f"English;{series_name} Era;Raw Single",
+        "collection": f"English;{series_name} Era;Raw Singles",
         "sku": card.id,
         "price": 0,
         "inventory": 0,
